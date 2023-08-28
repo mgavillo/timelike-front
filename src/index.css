@@ -36,6 +36,10 @@ button {
   @apply px-3 py-2 bg-orange-600 rounded-md text-2xl font-semibold
 }
 
+a { 
+  @apply  italic underline decoration-1 underline-offset-8 decoration-orange-600
+  }
+
 @keyframes fade-in {
   from {
     opacity: 0;
