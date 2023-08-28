@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App relative min-h-screen h-fit overflow-hidden">
+    <div className="App relative h-screen overflow-hidden ">
       <header className="App-header flex flex-row gap-2 justify-between p-4 h-20">
         <div className="flex flex-row gap-2 items-center">
           <img src="logo.png" className="h-full" />
@@ -10,7 +10,7 @@ function App() {
         </div>
         <></>
       </header>
-      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start md:justify-center gap-8 py-20 ">
+      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll mt-32">
         {/* <h1>TimeLike.Systems</h1> */}
         <div className="flex flex-row h-[200px] gap-4 items-center">
           <h1 className=" text-[130px] md:text-[180px]">AIMS</h1>
@@ -55,13 +55,14 @@ function App() {
           .
         </p>
         <button className="animate-fade-in delay-[6000ms]">Connect</button>
+        <img
+          src="/globe.png"
+          alt=""
+          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-mt-36"
+          style={{ height: "calc(100% + 11rem)" }}
+        />
       </section>
-      <img
-        src="/globe.png"
-        alt=""
-        className=" absolute inset-0 object-cover w-full -z-50 object-top xl:-mt-44 scale-125 md:scale-[200%] 2xl:scale-100"
-        style={{ height: "calc(100% + 11rem)" }}
-      />
+
       <footer className=" p-4 w-full absolute h-fit  bottom-0 bg-slate-950/50 text-xs md:text-base backdrop-blur-sm -z-30">
         Attention US government personnel: Because this technology builds upon work done under a Phase II SBIR, any US
         government agency can fund a Phase III follow-on as a sole source contract.
