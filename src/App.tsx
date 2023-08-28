@@ -2,30 +2,30 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App relative h-screen overflow-hidden ">
-      <header className="App-header flex flex-row gap-2 justify-between p-4 h-20">
+    <div className="App relative min-h-screen overflow-hidden ">
+      <header className="App-header flex flex-row gap-2 justify-between p-4 h-16">
         <div className="flex flex-row gap-2 items-center">
           <img src="logo.png" className="h-full" />
-          <p className="text-2xl font-bold w-[50px] leading-7">Timelike Systems</p>
+          <p className="text-lg font-bold w-[50px] leading-4">Timelike Systems</p>
         </div>
         <></>
       </header>
-      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll mt-32">
+      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll">
         {/* <h1>TimeLike.Systems</h1> */}
-        <div className="flex flex-row h-[200px] gap-4 items-center">
-          <h1 className=" text-[130px] md:text-[180px]">AIMS</h1>
+        <div className="flex flex-row gap-4 items-center justify-center">
+          <h1 className=" text-[120px] md:text-[160px]">AIMS</h1>
           <div className="flex flex-col items-start h-full justify-center">
-            <p className="animate-fade-in delay-0 text-sm md:text-xl">
+            <p className="animate-fade-in delay-0 text-sm md:text-base">
               <span className="font-black">A</span>ctive
             </p>
-            <p className="animate-fade-in text-sm md:text-xl">
+            <p className="animate-fade-in text-sm  md:text-base">
               <span className="font-black">I</span>nference
             </p>
             <hr className="w-full h-[1px] bg-white  my-1 md:my-2 text-lg md:text-xl" />
-            <p className="animate-fade-in  text-sm md:text-xl">
+            <p className="animate-fade-in  text-sm  md:text-base">
               <span className="font-black">M</span>odel
             </p>
-            <p className="animate-fade-in text-sm md:text-xl">
+            <p className="animate-fade-in text-sm  md:text-base">
               <span className="font-black">S</span>haring
             </p>
           </div>
@@ -58,7 +58,7 @@ function App() {
         <img
           src="/globe.png"
           alt=""
-          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-mt-36"
+          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-mt-26"
           style={{ height: "calc(100% + 11rem)" }}
         />
       </section>
