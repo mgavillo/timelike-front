@@ -47,18 +47,21 @@ function App() {
           single-agent and multi-agent decision-making, and, in the multi-agent case, helps users find and exploit
           win-win opportunities and spot and avoid lose-lose traps through{" "}
           <a
-            className="font-black no-underline"
+            className="no-underline"
             href="https://foresightinstitute.substack.com/s/intelligent-voluntary-cooperation"
             target="_blank">
             intelligent voluntary cooperation
           </a>
           .
         </p>
+        <a href="https://forms.gle/sKxFe6Sun6yyXr4g6" target="_blank">
         <button className="animate-fade-in delay-[6000ms]">Connect</button>
+
+        </a>
         <img
           src="/globe.png"
           alt=""
-          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-mt-26"
+          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-"
           style={{ height: "calc(100% + 11rem)" }}
         />
       </section>
