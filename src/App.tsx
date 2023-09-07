@@ -10,11 +10,11 @@ function App() {
         </div>
         <></>
       </header>
-      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll">
+      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll pb-24">
         {/* <h1>TimeLike.Systems</h1> */}
         <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
-          <h1 className=" text-[120px] md:text-[160px] ">AIMS</h1>
-          <div className="flex flex-col items-start h-full justify-center">
+          <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
+          <div className="flex flex-col items-start h-full justify-center ">
             <p className="animate-fade-in delay-0 text-sm md:text-base">
               <span className="font-black">A</span>ctive
             </p>
@@ -30,7 +30,7 @@ function App() {
             </p>
           </div>
         </div>
-        <h2 className="animate-fade-in ">Trustworthy AI for High Stakes Decision-Making</h2>
+        <h2 className="animate-fade-in whitespace-normal ">Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span></h2>
         <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
           in collaboration with{" "}
           <a href="https://www.digitalgaia.earth/" target="_blank">
@@ -61,7 +61,7 @@ function App() {
         <img
           src="/globe.png"
           alt=""
-          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:-"
+          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 3xl:object-bottom"
           style={{ height: "calc(100% + 11rem)" }}
         />
       </section>
