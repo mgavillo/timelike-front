@@ -4,16 +4,14 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 h1 {
@@ -24,21 +22,22 @@ h2 {
   @apply text-2xl md:text-5xl font-bold;
 }
 
-h3{
+h3 {
   @apply text-base md:text-3xl font-bold;
 }
 
 p {
-  @apply text-xs md:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl
+  @apply text-xs md:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl;
 }
 
 button {
-  @apply px-3 py-2 bg-orange-600 rounded-md text-2xl font-semibold
+  @apply px-3 py-2 bg-orange-600 rounded-md text-2xl font-semibold;
 }
 
-a { 
-  @apply  italic underline decoration-1 underline-offset-8 decoration-orange-600
-  }
+a {
+  @apply italic underline decoration-1 underline-offset-8 decoration-orange-600 hover:decoration-transparent hover:text-white relative after:absolute after:w-0  after:bg-orange-600/70 after:rounded-md after:-z-10 after:block after:-inset-1 after:transition-all after:duration-300 hover:after:w-[calc(100%+0.5rem)];
+}
+
 
 @keyframes fade-in {
   from {
