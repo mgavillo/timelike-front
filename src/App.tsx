@@ -3,16 +3,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App relative min-h-screen overflow-hidden ">
-      <header className="App-header flex flex-row gap-2 justify-between p-4 h-16">
-        <div className="flex flex-row gap-2 items-center">
-          <img src="logo.png" className="h-full" />
-          <p className="text-lg font-bold w-[50px] leading-4">Timelike Systems</p>
+      <header className="App-header flex flex-row gap-2 justify-between p-4">
+        <div className="flex flex-row gap-2 items-center justify-center">
+          <img src="logo.png" className="h-8 md:h-10 xl:h-12" />
+          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6">Timelike Systems</p>
         </div>
         <></>
       </header>
       <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll pb-24">
-        {/* <h1>TimeLike.Systems</h1> */}
-        <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
+        <h1>TimeLike™</h1>
+        {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
           <div className="flex flex-col items-start h-full justify-center ">
             <p className="animate-fade-in delay-0 text-sm md:text-base">
@@ -29,9 +29,11 @@ function App() {
               <span className="font-black">S</span>haring
             </p>
           </div>
-        </div>
-        <h2 className="animate-fade-in whitespace-normal ">Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span></h2>
-        <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
+        </div> */}
+        <h2 className="animate-fade-in whitespace-normal ">
+          Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
+        </h2>
+        {/* <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
           in collaboration with{" "}
           <a href="https://www.digitalgaia.earth/" target="_blank">
             Digital Gaia
@@ -40,23 +42,29 @@ function App() {
           <a href="http://gaiaconsortium.org" target="_blank">
             Gaia Consortium
           </a>
-        </h3>
-        <p className=" w-full xl:2/3 animate-fade-in ">
-          "AIMS" is not just an acronym; it is also an allusion to the fact that the technology is designed to help
-          users advance their specific aims, using model-based multi-objective dynamic optimization. AIMS supports both
-          single-agent and multi-agent decision-making, and, in the multi-agent case, helps users find and exploit
-          win-win opportunities and spot and avoid lose-lose traps through{" "}
-          <a
+        </h3> */}
+        <p>
+          {/* TimeLike™ is a cloud-based software platform designed to provide general-purpose model-based decision support. */}
+        </p>
+        <p className="w-full xl:w-2/3 animate-fade-in">
+          TimeLike™ is an AI cloud platform that provides an all purpose decision making tool.<br/>
+          It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
+          find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}<a
             className="no-underline"
             href="https://foresightinstitute.substack.com/s/intelligent-voluntary-cooperation"
             target="_blank">
             intelligent voluntary cooperation
-          </a>
-          .
+          </a>.
         </p>
+        {/* <p>
+          Potential applications for SECHI range from intelligent personal assistants, as described by Bill Gates, to a
+          planetary-scale self-regulating humans-in-the-loop cybernetic system along the lines of Gaia 2.0, as described by
+          Timothy Lenton and Bruno Latour.  At intermediate scales, SECHI could be used to support much more effective cooperative
+          decision-making in informal groups, such as families or clubs, in for-profit companies and nonprofit organizations, in
+          governments and government agencies, and even between and among independent nation-states.
+        </p> */}
         <a href="https://forms.gle/sKxFe6Sun6yyXr4g6" target="_blank">
-        <button className="animate-fade-in delay-[6000ms]">Connect</button>
-
+          <button className="animate-fade-in delay-[6000ms]">Connect</button>
         </a>
         <img
           src="/globe.png"
@@ -66,7 +74,7 @@ function App() {
         />
       </section>
 
-      <footer className=" p-4 w-full absolute h-fit  bottom-0 bg-slate-950/50 text-xs md:text-base backdrop-blur-sm -z-30">
+      <footer className=" p-4 w-full fixed h-fit  bottom-0 bg-slate-950/50 text-xs md:text-base backdrop-blur-sm -z-30">
         Attention US government personnel: Because this technology builds upon work done under a Phase II SBIR, any US
         government agency can fund a Phase III follow-on as a sole source contract.
       </footer>
