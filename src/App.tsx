@@ -11,7 +11,7 @@ function App() {
         <></>
       </header>
       <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll pb-24">
-        <h1>TimeLike™</h1>
+        <h1 className="animate-fade-in">TimeLike™</h1>
         {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
           <div className="flex flex-col items-start h-full justify-center ">
@@ -30,7 +30,7 @@ function App() {
             </p>
           </div>
         </div> */}
-        <h2 className="animate-fade-in whitespace-normal ">
+        <h2 className="animate-fade-in delay-500 whitespace-normal ">
           Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
         </h2>
         {/* <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
@@ -46,16 +46,27 @@ function App() {
         <p>
           {/* TimeLike™ is a cloud-based software platform designed to provide general-purpose model-based decision support. */}
         </p>
-        <p className="w-full xl:w-2/3 animate-fade-in">
-          TimeLike™ is an AI cloud platform that provides an all purpose decision making tool.<br/>
-          It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
-          find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}<a
-            className="no-underline"
+        <p className="w-full xl:w-2/3">
+          TimeLike™ is an AI cloud platform for all-purpose model-based decision support.
+          TimeLike supports both single-agent and multi-agent decision-making, and,
+          in the multi-agent case, helps users find and exploit win-win opportunities and spot
+          and avoid lose-lose traps through <a
             href="https://foresightinstitute.substack.com/s/intelligent-voluntary-cooperation"
             target="_blank">
             intelligent voluntary cooperation
-          </a>.
+          </a>. <br />
+          {/* TimeLike™ is an AI cloud platform that provides an all purpose decision making tool.
+          It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
+        find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}. */}
         </p>
+        <p className="text-xs md:text-sm">
+          Potential applications for SECHI would range all the way from {" "}
+        <a  href="https://www.gatesnotes.com/AI-agents" target="_blank">
+          intelligent personal assistants
+        </a>
+        , as described by Bill Gates, to <a href="http://www.bruno-latour.fr/sites/default/files/158-SCIENCE_LENTON-pdf.pdf" target="_blank">Gaia 2.0</a>, the planetary-scale life-centered self-regulating
+        cybernetic system proposed by Timothy Lenton and Bruno Latour.
+          </p>
         {/* <p>
           Potential applications for SECHI range from intelligent personal assistants, as described by Bill Gates, to a
           planetary-scale self-regulating humans-in-the-loop cybernetic system along the lines of Gaia 2.0, as described by
@@ -63,8 +74,8 @@ function App() {
           decision-making in informal groups, such as families or clubs, in for-profit companies and nonprofit organizations, in
           governments and government agencies, and even between and among independent nation-states.
         </p> */}
-        <a href="https://forms.gle/sKxFe6Sun6yyXr4g6" target="_blank">
-          <button className="animate-fade-in delay-[6000ms]">Connect</button>
+        <a className="hover-effect text-white" href="https://forms.gle/sKxFe6Sun6yyXr4g6" target="_blank">
+          <button className="">Connect</button>
         </a>
         <img
           src="/globe.png"
