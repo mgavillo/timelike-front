@@ -6,12 +6,12 @@ function App() {
       <header className="App-header flex flex-row gap-2 justify-between p-4">
         <div className="flex flex-row gap-2 items-center justify-center">
           <img src="logo.svg" className="h-8 md:h-10 xl:h-12" />
-          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6 segoe">Timelike Systems</p>
+          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6 segoe">TimeLike Systems</p>
         </div>
         <></>
       </header>
       <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll pb-24">
-        <h1 className="animate-fade-in">TimeLike™</h1>
+        <h1 className="animate-fade-in segoe">TimeLike™</h1>
         {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
           <div className="flex flex-col items-start h-full justify-center ">
@@ -30,7 +30,7 @@ function App() {
             </p>
           </div>
         </div> */}
-        <h2 className="animate-fade-in delay-500 whitespace-normal ">
+        <h2 className="animate-fade-in delay-500 whitespace-normal segoe">
           Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
         </h2>
         {/* <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
@@ -46,7 +46,7 @@ function App() {
         <p>
           {/* TimeLike™ is a cloud-based software platform designed to provide general-purpose model-based decision support. */}
         </p>
-        <p className="w-full xl:w-2/3">
+        <p className="w-full xl:px-24">
           TimeLike™ is an AI cloud platform for all-purpose model-based decision support.
           TimeLike supports both single-agent and multi-agent decision-making, and,
           in the multi-agent case, helps users find and exploit win-win opportunities and spot
@@ -59,10 +59,13 @@ function App() {
           It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
         find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}. */}
         </p>
-        <p className="w-full xl:w-2/3">
+        <p className="w-full xl:w-2/3 3xl:w-3/4">
           Potential applications range from AI-enabled <a href="https://www.gatesnotes.com/AI-agents" target="_blank">intelligent personal assistants</a>
           , as described by Bill Gates,
-          all the way up to a planetary-scale life-centered self-regulating system along the lines of Gaia 2.0, as proposed in this 2018 {" "}
+          all the way up to a planetary-scale life-centered self-regulating system along the lines of <span className="italic">
+            Gaia 2.0
+            </span>
+            , as proposed in this 2018 {" "}
           <a href="http://www.bruno-latour.fr/sites/default/files/158-SCIENCE_LENTON-pdf.pdf" target="_blank">article</a> in Science.
         </p>
         {/* <p>

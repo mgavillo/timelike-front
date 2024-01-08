@@ -11,7 +11,8 @@ body {
 }
 
 .segoe {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI Semibold";
+  @apply font-normal;
 }
 
 code {
