@@ -59,14 +59,12 @@ function App() {
           It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
         find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}. */}
         </p>
-        <p className="text-xs md:text-sm">
-          Potential applications for SECHI would range all the way from {" "}
-        <a  href="https://www.gatesnotes.com/AI-agents" target="_blank">
-          intelligent personal assistants
-        </a>
-        , as described by Bill Gates, to <a href="http://www.bruno-latour.fr/sites/default/files/158-SCIENCE_LENTON-pdf.pdf" target="_blank">Gaia 2.0</a>, the planetary-scale life-centered self-regulating
-        cybernetic system proposed by Timothy Lenton and Bruno Latour.
-          </p>
+        <p className="w-full xl:w-2/3">
+          Potential applications range from AI-enabled <a href="https://www.gatesnotes.com/AI-agents" target="_blank">intelligent personal assistants</a>
+          , as described by Bill Gates,
+          all the way up to a planetary-scale life-centered self-regulating system along the lines of Gaia 2.0, as proposed in this 2018 {" "}
+          <a href="http://www.bruno-latour.fr/sites/default/files/158-SCIENCE_LENTON-pdf.pdf" target="_blank">article</a> in Science.
+        </p>
         {/* <p>
           Potential applications for SECHI range from intelligent personal assistants, as described by Bill Gates, to a
           planetary-scale self-regulating humans-in-the-loop cybernetic system along the lines of Gaia 2.0, as described by
