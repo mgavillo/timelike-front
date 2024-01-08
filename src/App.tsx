@@ -5,8 +5,8 @@ function App() {
     <div className="App relative min-h-screen overflow-hidden ">
       <header className="App-header flex flex-row gap-2 justify-between p-4">
         <div className="flex flex-row gap-2 items-center justify-center">
-          <img src="logo.png" className="h-8 md:h-10 xl:h-12" />
-          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6">Timelike Systems</p>
+          <img src="logo.svg" className="h-8 md:h-10 xl:h-12" />
+          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6 segoe">Timelike Systems</p>
         </div>
         <></>
       </header>
