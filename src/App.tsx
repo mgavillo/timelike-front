@@ -6,11 +6,11 @@ function App() {
       <header className="App-header flex flex-row gap-2 justify-between p-4">
         <div className="flex flex-row gap-2 items-center justify-center">
           <img src="logo.svg" className="h-8 md:h-10 xl:h-12" />
-          <p className="md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6 segoe">TimeLike Systems</p>
+          <p className=" md:text-xl xl:text-2xl font-bold w-[50px] leading-4 md:leading-5 xl:leading-6 segoe">TimeLike Systems</p>
         </div>
         <></>
       </header>
-      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-8 h-full overflow-y-scroll pb-24">
+      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-3  md:gap-8 h-full overflow-y-scroll pb-24">
         <h1 className="animate-fade-in segoe">TimeLike™</h1>
         {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
@@ -30,7 +30,7 @@ function App() {
             </p>
           </div>
         </div> */}
-        <h2 className="animate-fade-in delay-500 whitespace-normal segoe">
+        <h2 className="animate-fade-in whitespace-normal segoe">
           Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
         </h2>
         {/* <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
