@@ -11,7 +11,7 @@ function App() {
         <></>
       </header>
       <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-3 md:gap-4 xl:gap-8 h-full overflow-y-scroll pb-32">
-        <div className="flex flex-col gap-1 md:gap-2 xl:gap-4">
+        <div className="flex flex-col md:gap-1 xl:gap-2">
           <h1 className="animate-fade-in segoe">TimeLike™</h1>
           {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
