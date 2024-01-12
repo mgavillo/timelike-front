@@ -11,8 +11,9 @@ function App() {
         <></>
       </header>
       <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-3 md:gap-4 xl:gap-8 h-full overflow-y-scroll pb-32">
-        <h1 className="animate-fade-in segoe">TimeLike™</h1>
-        {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
+        <div className="flex flex-col gap-1 md:gap-2 xl:gap-4">
+          <h1 className="animate-fade-in segoe">TimeLike™</h1>
+          {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
           <div className="flex flex-col items-start h-full justify-center ">
             <p className="animate-fade-in delay-0 text-sm md:text-base">
@@ -30,9 +31,11 @@ function App() {
             </p>
           </div>
         </div> */}
-        <h2 className="animate-fade-in whitespace-normal segoe">
-          Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
-        </h2>
+          <h2 className="animate-fade-in whitespace-normal segoe">
+            Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
+          </h2>
+
+        </div>
         {/* <h3 className="-mt-4 font-normal animate-fade-in text-xs md:text-2xl">
           in collaboration with{" "}
           <a href="https://www.digitalgaia.earth/" target="_blank">
