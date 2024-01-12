@@ -64,8 +64,8 @@ function App() {
           , as described by Bill Gates,
           all the way up to a planetary-scale life-centered self-regulating system along the lines of <span className="italic">
             Gaia 2.0
-            </span>
-            , as proposed in this 2018 {" "}
+          </span>
+          , as proposed in this 2018 {" "}
           <a href="http://www.bruno-latour.fr/sites/default/files/158-SCIENCE_LENTON-pdf.pdf" target="_blank">article</a> in Science.
         </p>
         {/* <p>
@@ -76,7 +76,9 @@ function App() {
           governments and government agencies, and even between and among independent nation-states.
         </p> */}
         <a className="hover-effect text-white" href="https://forms.gle/sKxFe6Sun6yyXr4g6" target="_blank">
-          <button className="">Connect</button>
+          <button className="">
+            <h3>Connect</h3>
+          </button>
         </a>
         <img
           src="/globe.png"
