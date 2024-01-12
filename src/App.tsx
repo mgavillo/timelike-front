@@ -10,7 +10,7 @@ function App() {
         </div>
         <></>
       </header>
-      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-3 md:gap-4 xl:gap-8 h-full overflow-y-scroll pb-24">
+      <section className="px-4 md:px-12 xl:px-48 flex flex-col items-center justify-start gap-3 md:gap-4 xl:gap-8 h-full overflow-y-scroll pb-32">
         <h1 className="animate-fade-in segoe">TimeLike™</h1>
         {/* <div className="flex flex-row gap-4 items-center justify-center h-[200px]">
           <h1 className=" text-center text-[120px] md:text-[160px]">AIMS</h1>
@@ -86,7 +86,7 @@ function App() {
         />
       </section>
 
-      <footer className=" p-4 w-full fixed h-fit  bottom-0 bg-slate-950/50 text-xs md:text-base backdrop-blur-sm -z-30">
+      <footer className="p-4 w-full fixed h-fit  bottom-0 bg-slate-950/50 text-xs md:text-base backdrop-blur-sm z-30">
         Attention US government personnel: Because this technology builds upon work done under a Phase II SBIR, any US
         government agency can fund a Phase III follow-on as a sole source contract.
       </footer>
