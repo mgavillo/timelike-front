@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  @apply text-[3w] xl:text-6xl font-bold;
+  @apply  xl:text-6xl font-bold;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-  @apply text-xs md:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl;
+  @apply text-xs lg:text-lg xl:text-xl 2xl:text-2xl 3xl:text-3xl;
 }
 
 button {
