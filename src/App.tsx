@@ -31,7 +31,7 @@ function App() {
             </p>
           </div>
         </div> */}
-          <h2 className="animate-fade-in whitespace-normal segoe">
+          <h2 className="animate-fade-in whitespace-normal segoe" style={{fontSize: "3vw"}}>
             Trustworthy AI for High Stakes <span className="w-fit whitespace-nowrap">Decision-Making</span>
           </h2>
 
