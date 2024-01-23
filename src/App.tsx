@@ -49,7 +49,7 @@ function App() {
         <p>
           {/* TimeLike™ is a cloud-based software platform designed to provide general-purpose model-based decision support. */}
         </p>
-        <p className="w-full mix-blend-difference">
+        <p className="w-full">
           TimeLike™ is an AI cloud platform for all-purpose model-based decision support.
           TimeLike supports both single-agent and multi-agent decision-making, and,
           in the multi-agent case, helps users find and exploit win-win opportunities and spot
@@ -62,7 +62,7 @@ function App() {
           It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
         find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}. */}
         </p>
-        <p className="w-full mix-blend-difference">
+        <p className="w-full">
           Potential applications range from AI-enabled <a href="https://www.gatesnotes.com/AI-agents" target="_blank">intelligent personal assistants</a>
           , as described by Bill Gates,
           all the way up to a planetary-scale life-centered self-regulating system along the lines of <span className="italic">
@@ -86,7 +86,7 @@ function App() {
         <img
           src="/globe.png"
           alt=""
-          className="absolute top-0 bottom-0 object-cover h-full -z-50 object-top scale-125 -mb-80 2xs:scale-100 2xs:mb-0 md:scale-[200%]"
+          className="absolute top-0 bottom-0 object-cover h-full -z-50 object-top scale-125 -mb-[300px] 2xs:scale-100 2xs:mb-0 md:scale-[200%]"
           // 2xl:scale-100 2xl:-mt-40  3xl:-mt-56"
           // style={{ height: "calc(100% + 11rem)" }}
         />
