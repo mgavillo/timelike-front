@@ -86,8 +86,9 @@ function App() {
         <img
           src="/globe.png"
           alt=""
-          className=" absolute inset-0 object-cover w-full -z-50 object-top  scale-125 md:scale-[200%] 2xl:scale-100 2xl:-mt-40  3xl:-mt-56"
-          style={{ height: "calc(100% + 11rem)" }}
+          className="absolute top-0 bottom-0 object-cover h-full -z-50 object-top  scale-125 md:scale-[200%]"
+          // 2xl:scale-100 2xl:-mt-40  3xl:-mt-56"
+          // style={{ height: "calc(100% + 11rem)" }}
         />
       </section>
 
