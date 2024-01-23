@@ -92,8 +92,7 @@ function App() {
       </section>
 
       <footer className="p-4 w-full fixed h-fit  bottom-0 bg-slate-950/50 text-2xs md:text-xs xl:text-base backdrop-blur-sm z-30">
-        Attention US government personnel: Because this technology builds upon work done under a Phase II SBIR, any US
-        government agency can fund a Phase III follow-on as a sole source contract.
+      Attention US government personnel: Because of a previous Phase II SBIR, any US government agency can fund a Phase III follow-on as a sole source contract.
       </footer>
     </div>
   );
