@@ -49,7 +49,7 @@ function App() {
         <p>
           {/* TimeLike™ is a cloud-based software platform designed to provide general-purpose model-based decision support. */}
         </p>
-        <p className="w-full">
+        <p className="w-full mix-blend-difference">
           TimeLike™ is an AI cloud platform for all-purpose model-based decision support.
           TimeLike supports both single-agent and multi-agent decision-making, and,
           in the multi-agent case, helps users find and exploit win-win opportunities and spot
@@ -62,7 +62,7 @@ function App() {
           It supports both single-agent and multi-agent decision-making, and, in the multi-agent case, helps users
         find and <strong>exploit win-win opportunities</strong> and spot and <strong>avoid lose-lose traps</strong> through {"  "}. */}
         </p>
-        <p className="w-full">
+        <p className="w-full mix-blend-difference">
           Potential applications range from AI-enabled <a href="https://www.gatesnotes.com/AI-agents" target="_blank">intelligent personal assistants</a>
           , as described by Bill Gates,
           all the way up to a planetary-scale life-centered self-regulating system along the lines of <span className="italic">
